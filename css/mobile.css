@@ -303,3 +303,25 @@
     }
 
 }
+@media (max-width: 768px) {
+
+    
+    .site-header {
+        position: relative !important;
+    }
+
+    .hero {
+        padding-top: 40px !important;
+    }
+
+   
+    .hero-buttons,
+    .primary-button,
+    .secondary-button {
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+    }
+}
