@@ -1,0 +1,105 @@
+.primary-button,
+.secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .65rem;
+    padding: .95rem 2rem;
+    border: none;
+    border-radius: 999px;
+    font-family: "Poppins", sans-serif;
+    font-size: .95rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background .3s ease,
+        color .3s ease,
+        border-color .3s ease;
+}
+
+.primary-button {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff7a00, #ff9736);
+    box-shadow:
+        0 14px 35px rgba(255, 122, 0, .28),
+        inset 0 1px 1px rgba(255, 255, 255, .25);
+}
+
+.primary-button:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 22px 45px rgba(255, 122, 0, .35),
+        inset 0 1px 1px rgba(255, 255, 255, .3);
+}
+
+.primary-button:active {
+    transform: translateY(-1px) scale(.98);
+}
+
+.secondary-button {
+    color: #1f1f1f;
+    background: rgba(255, 255, 255, .72);
+    border: 1px solid rgba(255, 122, 0, .18);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, .06),
+        inset 0 1px 1px rgba(255, 255, 255, .7);
+}
+
+.secondary-button:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, .92);
+    border-color: rgba(255, 122, 0, .4);
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, .08),
+        inset 0 1px 1px rgba(255, 255, 255, .9);
+}
+
+.secondary-button:active {
+    transform: translateY(-1px) scale(.98);
+}
+
+.primary-button:focus-visible,
+.secondary-button:focus-visible {
+    outline: none;
+    box-shadow:
+        0 0 0 4px rgba(255, 122, 0, .18),
+        0 0 0 8px rgba(255, 122, 0, .08);
+}
+
+.primary-button:disabled,
+.secondary-button:disabled {
+    opacity: .55;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 100%;
+    }
+
+}

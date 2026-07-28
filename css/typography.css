@@ -1,0 +1,205 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #3f3f3f;
+    letter-spacing: .01em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1c1c1c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -.03em;
+}
+
+h1 {
+    font-size: clamp(3.5rem, 6vw, 6rem);
+    font-weight: 800;
+}
+
+h2 {
+    font-size: clamp(2.5rem, 4vw, 3.8rem);
+}
+
+h3 {
+    font-size: 1.55rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.05rem;
+}
+
+h6 {
+    font-size: .95rem;
+}
+
+p {
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+strong {
+    font-weight: 700;
+    color: #1d1d1d;
+}
+
+em {
+    font-style: italic;
+}
+
+small {
+    font-size: .875rem;
+}
+
+.section-heading span,
+.hero-tag {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    letter-spacing: -.04em;
+}
+
+.nav-links a {
+    font-family: "Inter", sans-serif;
+    font-size: .96rem;
+    font-weight: 600;
+}
+
+.primary-button,
+.secondary-button {
+    font-family: "Poppins", sans-serif;
+    font-size: .95rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+}
+
+.info-card h3,
+.product-card h3,
+.timeline-item h3,
+.contact-grid h3 {
+    margin-bottom: .9rem;
+}
+
+.info-card p,
+.timeline-item p,
+.contact-grid p {
+    color: #666666;
+}
+
+.stat-card h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: clamp(2.6rem, 5vw, 3.6rem);
+    font-weight: 700;
+    line-height: 1;
+    color: #ff7a00;
+}
+
+.stat-card p {
+    font-size: .95rem;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.value-grid div,
+.future-grid div {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #252525;
+}
+
+.site-footer h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.site-footer p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .72);
+}
+
+.site-footer small {
+    letter-spacing: .05em;
+    color: rgba(255, 255, 255, .45);
+}
+
+@media (max-width: 992px) {
+
+    body {
+        font-size: .98rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: .96rem;
+    }
+
+    p {
+        line-height: 1.8;
+    }
+
+    h2 {
+        font-size: clamp(2rem, 7vw, 3rem);
+    }
+
+    .stat-card h3 {
+        font-size: 2.4rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: .94rem;
+    }
+
+    h1 {
+        font-size: clamp(2.4rem, 11vw, 3.8rem);
+    }
+
+    h2 {
+        font-size: clamp(1.8rem, 8vw, 2.6rem);
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .primary-button,
+    .secondary-button {
+        font-size: .92rem;
+    }
+
+}

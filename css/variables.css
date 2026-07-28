@@ -1,0 +1,63 @@
+:root {
+    --primary: #ff7a00;
+    --primary-light: #ff9736;
+    --primary-soft: #ffe6cc;
+    --primary-glow: rgba(255, 122, 0, .18);
+
+    --secondary: #f6c453;
+    --secondary-light: #ffe39d;
+
+    --success: #45c46a;
+    --warning: #ffb547;
+    --danger: #ff5f57;
+
+    --white: #ffffff;
+    --cream: #fff8f0;
+    --cream-dark: #f8efe3;
+
+    --text: #1d1d1d;
+    --text-light: #666666;
+    --text-muted: #8c8c8c;
+
+    --surface: rgba(255, 255, 255, .72);
+    --surface-solid: #ffffff;
+    --surface-dark: #171717;
+
+    --border: rgba(255, 255, 255, .55);
+    --border-light: rgba(255, 122, 0, .12);
+
+    --shadow-xs: 0 4px 12px rgba(0, 0, 0, .04);
+    --shadow-sm: 0 10px 24px rgba(0, 0, 0, .06);
+    --shadow-md: 0 18px 45px rgba(0, 0, 0, .08);
+    --shadow-lg: 0 28px 70px rgba(0, 0, 0, .12);
+
+    --blur: 18px;
+
+    --radius-sm: 12px;
+    --radius-md: 20px;
+    --radius-lg: 28px;
+    --radius-xl: 40px;
+    --radius-round: 999px;
+
+    --container: 1400px;
+
+    --header-height: 92px;
+
+    --section-space: 8rem;
+    --section-space-mobile: 5rem;
+
+    --transition-fast: .2s ease;
+    --transition: .3s ease;
+    --transition-slow: .5s ease;
+
+    --font-heading: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-number: "Space Grotesk", sans-serif;
+
+    --z-background: -3;
+    --z-particles: -2;
+    --z-cursor: -1;
+    --z-content: 1;
+    --z-header: 1000;
+    --z-modal: 2000;
+}
